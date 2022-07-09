@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" >
+    <title>Conversor de Moeda</title>
+</head>
+<body>
+    <div >
+        <main>   
+            <header>
+                <h1>Conversor de dinheiro DevClub</h1>
+            </header>
+            <div class="divSelects">
+                <div >
+                    <label >
+                        <p id="converterDe">Converter <b>de</b></p>
+                        <select class="selectMoney">
+                            <option>R$ Real brasileiro</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <p id="converterPara">Converter <b>para</b></p>
+                        <select class="selectMoney">
+                            <option>US$ Dólar americano</option>
+                            <option>€ Euro</option>
+                            <option>Bit Coin</option>
+                         </select>
+                    </label>
+                    <label>
+                        <p id="valor">Valor</p>
+                            <input placeholder= 'R$ 10.000,00' type="number" />
+                    </label>
+                    
+                </div>
+                    <div id="divFlogsAButton">
+                        <button type="button">
+                            <p id="legendButton">Converter</p>
+                        </button>
+                        <div id="divFlags">
+                            <figure>
+                                <img src="./img/brasil 2.png" alt="Bandeira-Brasileira"/>
+                                <p class="lastReal">Real</p>
+                                <p class="realMoney">R$ 10.000,00</p>
+                            </figure>
+                    
+                            <figure>
+                                <img src="./img/Vector.png" id="vetor"/>
+                            </figure>
+
+                            <figure class="lastFigure">
+                                <img src="./img/dolár.png" alt="Bandeira-Americana-Eua"/>
+                                <p class="lastReal"> Dólar americano </p>
+                                <p class="realMoney">US$ 2.000,00</p>
+                            </figure>
+                        </div>
+                    </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
