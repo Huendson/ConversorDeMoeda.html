@@ -27,7 +27,7 @@
 
                     <label>
                         <p id="converterPara">Converter <b>para</b></p>
-                        <select class="selectMoney">
+                        <select class="selectMoney" id="select-money">
                             <option>US$ Dólar americano</option>
                             <option>€ Euro</option>
                             <option>Bit Coin</option>
@@ -35,19 +35,19 @@
                     </label>
                     <label>
                         <p id="valor">Valor</p>
-                            <input placeholder= 'R$ 10.000,00' type="number" />
+                            <input id="input-Valor" placeholder= 'R$ 10.000,00' type="number" />
                     </label>
                     
                 </div>
                     <div id="divFlogsAButton">
-                        <button type="button">
+                        <button id="button-converter" type="button">
                             <p id="legendButton">Converter</p>
                         </button>
                         <div id="divFlags">
                             <figure>
                                 <img src="./img/brasil 2.png" alt="Bandeira-Brasileira"/>
                                 <p class="lastReal">Real</p>
-                                <p class="realMoney">R$ 10.000,00</p>
+                                <p class="realMoney" id="value-Real">R$ 10.000,00</p>
                             </figure>
                     
                             <figure>
@@ -55,9 +55,9 @@
                             </figure>
 
                             <figure class="lastFigure">
-                                <img src="./img/dolár.png" alt="Bandeira-Americana-Eua"/>
-                                <p class="lastReal"> Dólar americano </p>
-                                <p class="realMoney">US$ 2.000,00</p>
+                                <img src="./img/dolár.png" id="src-img" alt="Bandeira-Americana-Eua"/>
+                                <p class="lastReal" id="text-value"> Dólar americano </p>
+                                <p class="realMoney" id="value-convert">US$ 2.000,00</p>
                             </figure>
                         </div>
                     </div>
@@ -65,4 +65,5 @@
         </main>
     </div>
 </body>
+<script src="./scripts.js"></script>
 </html>
